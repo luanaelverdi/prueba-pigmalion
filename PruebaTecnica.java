@@ -4,6 +4,7 @@ public class PruebaTecnica {
     public static void main(String[] args) {
         int[] arreglo = { 5, 2, 1, 4, 4 };
         System.out.println(sumaConDosElementosv1(arreglo, 8));
+        System.out.println(sumaConDosElementosv2(arreglo, 8));
 
     }
 
@@ -25,7 +26,8 @@ public class PruebaTecnica {
         HashSet<Integer> losQueSirven = new HashSet<>();
         //recorro el arreglo
         for (int n : numeros) {
-            //pregunto si la resta entre el objetivo y el elemento esta en el set pues seria la otra parte que me faltaria
+            //pregunto si la resta entre el objetivo y el elemento esta en el set pues seria la 
+            //otra parte que me faltaria
             if (losQueSirven.contains(objetivo - n)) {
                 return true;
             } else {
