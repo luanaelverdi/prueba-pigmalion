@@ -24,7 +24,6 @@ public class PruebaTecnica {
 
     public static boolean sumaConDosElementosv2(int[] numeros, int objetivo) {
         HashSet<Integer> losQueSirven = new HashSet<>();
-        //recorro el arreglo
         for (int n : numeros) {
             //pregunto si la resta entre el objetivo y el elemento esta en el set pues seria la 
             //otra parte que me faltaria
